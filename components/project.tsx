@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { BsArrowRight } from "react-icons/bs";
 // Import arrow icon from react-icons
 import { FaArrowRight } from "react-icons/fa";
 
