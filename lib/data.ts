@@ -75,6 +75,7 @@ export const projectsData = [
       "Developed a comprehensive website with a registration portal for Umung - a Model United Nations hosted by InternWare.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP/SQL"],
     imageUrl: umungImg,
+    projectLink: "https://www.iitminternware.com/2023-24/UMUNG/index.php"
   },
   {
     title: "Matrix",
@@ -82,6 +83,7 @@ export const projectsData = [
       "A Tech-Fest website built with Vanilla CSS, JavaScript, integrated with Three.js, and a PHP/SQL backend.",
     tags: ["HTML", "CSS", "JavaScript", "Three.js", "PHP/SQL"],
     imageUrl: matrixImg,
+    projectLink: "https://iitminternware.com/2023-24/MATRIX/index.php"
   },
   
 ] as const;
