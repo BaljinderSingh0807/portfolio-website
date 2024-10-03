@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+// Import arrow icon from react-icons
+import { FaArrowRight } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -47,14 +49,16 @@ export default function Project({
               </li>
             ))}
           </ul>
-          {/* Add a "View Project" link here */}
+          {/* Add a "View Project" link here with React Icon arrow */}
           <a
             href={projectLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 text-white-600 underline"
+            className="mt-4 flex items-center gap-2 text-white"
           >
             View Project
+            {/* Arrow Icon from React Icons */}
+            <FaArrowRight />
           </a>
         </div>
 
