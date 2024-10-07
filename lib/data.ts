@@ -85,6 +85,22 @@ export const projectsData = [
     imageUrl: matrixImg,
     projectLink: "https://iitminternware.com/2023-24/MATRIX/index.php"
   },
+  {
+    title: "HR Conclave",
+    description:
+      "Developed a website with complex ticketing system with tier based perks and rewards, fully with Vanilla JavaScript",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Swiper.js", "PHP/SQL"],
+    imageUrl: matrixImg,
+    projectLink: "https://iitminternware.com/2023-24/hr-conclave/index.php"
+  },
+  {
+    title: "Matrix",
+    description:
+      "A React application which showcases various movies and ratings, can sort, filter and search, used high level JS Functions",
+    tags: ["HTML", "CSS", "JavaScript", "React.JS", "Tailwind"],
+    imageUrl: matrixImg,
+    projectLink: "https://movix-psi-pink.vercel.app/"
+  },
   
 ] as const;
 
