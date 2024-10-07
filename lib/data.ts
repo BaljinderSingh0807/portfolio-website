@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import matrixImg from "@/public/Matrix.jpeg";
 import umungImg from "@/public/Umung.jpeg";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import hrImg from "@/public/hrImg.jpeg";
+import movixImg from "@/public/movixImg.jpeg";
 
 export const links = [
   {
@@ -90,15 +92,15 @@ export const projectsData = [
     description:
       "Developed a website with complex ticketing system with tier based perks and rewards, fully with Vanilla JavaScript",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Swiper.js", "PHP/SQL"],
-    imageUrl: matrixImg,
+    imageUrl: hrImg,
     projectLink: "https://iitminternware.com/2023-24/hr-conclave/index.php"
   },
   {
-    title: "Matrix",
+    title: "Movix",
     description:
       "A React application which showcases various movies and ratings, can sort, filter and search, used high level JS Functions",
     tags: ["HTML", "CSS", "JavaScript", "React.JS", "Tailwind"],
-    imageUrl: matrixImg,
+    imageUrl: movixImg,
     projectLink: "https://movix-psi-pink.vercel.app/"
   },
   
